@@ -3,6 +3,7 @@ terraform {
     aws = {
         source = "harshicorp/aws"
         version = "4.61.0"
+    }
   }
 }
 provider "aws" {
